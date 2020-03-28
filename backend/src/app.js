@@ -5,6 +5,8 @@ const express = require('express');
 // Importando CORS - Módulo que vai dizer quem vai acessar aplicação
 const cors = require('cors');
 
+const { errors } = require('celebrate');
+
 // Importanto as rotas da minha aplicação
 const routes = require('./routes');
 
@@ -19,5 +21,6 @@ app.use(express.json());
 
 // Após importas as rotas, uso o app.use para usar as rotas criadas 
 app.use(routes);
+app.use(errors())
 
-app.listen(3333);
+module.exports = app;

@@ -1,6 +1,8 @@
 // Way to create ONGs ID
 const crypto = require('crypto');
 
+const generateUniqueId = require('../utils/generateUniqueId');
+
 // Importing the connetion with Database
 const connection = require('../database/connection');
 
@@ -21,7 +23,7 @@ module.exports = {
     const { name, email, whatsapp, city, uf } = request.body;
 
     // Usando o crypto para criar um número texto aleatório e convertendo para string hexadecimal
-    const id = crypto.randomBytes(4).toString('HEX');
+    const id = generateUniqueId()
 
     // Now, through the connection, we can insert datas in the Database 
     await connection('ongs').insert({
