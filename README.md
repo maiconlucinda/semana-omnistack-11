@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Be The Hero é um projeto desenvolvido ONGs, que visa fazer com que pessoas dispostas a ajudar, encontre as ONGs cadastradas no sistema.
+O Be The Hero é um projeto desenvolvido para ONGs, que visa fazer com que pessoas dispostas a ajudar, encontre as ONGs cadastradas no sistema.
 
 ## 🔖 Layout
 
