@@ -4,15 +4,6 @@
 </h4>
 <p align="center">
 
-  <img alt="Repository size" src="https://github.com/maiconlucinda/semana-omnistack-11">
-
-  <a href="#">
-    <img alt="GitHub last commit" src="#">
-  </a>
-
-  <a href="#">
-    <img alt="#">
-  </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
